@@ -1,0 +1,36 @@
+.jumbotron{
+    text-align: center;
+    padding: 12px;
+}
+
+.mypanel{
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.collapser{
+    padding-top: 10px;
+}
+.dropdown-menu{
+	left: -150px !important;
+}
+
+@media screen and (max-width: 991px){
+    .columns{
+        height: auto;
+        overflow-y:scroll;
+    }
+	.dropdown-menu{
+		left: 0px !important;
+	}
+}
+
+@media screen and (min-width: 992px){
+    .columns{
+        -moz-column-count:2; /* Firefox */
+        -webkit-column-count:2; /* Safari and Chrome */
+        column-count:2;
+        width: 500px;
+        height: auto;
+    }
+}
